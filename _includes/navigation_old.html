@@ -1,0 +1,13 @@
+<nav>
+  |
+  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a>
+  |
+  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>About</a>
+  |
+</nav>
+
+<!-- A simple navigation menu that links to the home page and the about page. The Home link doesn't reference the index.html page. Just the root folder. -->
+
+<!-- Using Liquid's logic (curly brackets), we check if the page's url is "/*" and change the link color accordingly.  -->
+
+<!-- The reference to the about pages uses about.html, recognizing that the actual format is .md  -->

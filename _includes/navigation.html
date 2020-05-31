@@ -1,14 +1,14 @@
 <nav>
-  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
-    Home
-  </a>
-  <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
-    About
-  </a>
+  {% for item in site.data.navigation %}
+    | <a href="{{ item.link }}" {% if page.url == item.link %} style="color: red;" {% endif %}>{{ item.name }}</a>
+  {% endfor %}
 </nav>
 
-<!-- A simple navigation menu that links to the home page and the about page. The Home link doesn't reference the index.html page. Just the root folder. -->
+<!-- 
 
-<!-- Using Liquid's logic (curly brackets), we check if the page's url is "/*" and change the link color accordingly.  -->
+The list of values stored in _data can be accessed with the site.data_ command. 
+Using the Liquid logic brackets, we iterate through the list of data, and item.link references the variables set in the list.
 
-<!-- The reference to the about pages uses about.html, recognizing that the actual format is .md  -->
+The second piece of logic then compares the current page, obtained with page.url, and compares it to the listed item. If the listed item matches, the format is changed to red.
+
+-->

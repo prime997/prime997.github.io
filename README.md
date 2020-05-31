@@ -81,3 +81,8 @@ Jeykyll supports Markdown for faster and easier writing. Create a default templa
 
 # Includes
 We can include html using the `include` command wrapped in `{% * %}` brackets. Any file that needs to be included is stored in the `_includes` folder. Note, Liquid will read the brackets even if they're commented out in the HTML.
+
+# Data Files
+Jekyll supports loading data from YAML, JSON, and CSV files located in a `_data` directory. Data files are a great way to separate content from source code to make the site easier to maintain.
+
+We can use the Liquid logic blocks to iterate through the list. (See navigation.hmtl).
