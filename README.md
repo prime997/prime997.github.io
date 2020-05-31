@@ -73,3 +73,11 @@ Front matter variables are available in Liquid under the page variable. For exam
 ```
 {{ page.my_number }}
 ```
+
+# Layouts and Markdown
+Layouts are located in the `_layouts` folder. They wrap the content of a page in HTML. The Front Matter variable 'layout' tells Liquid which layout template to use.
+
+Jeykyll supports Markdown for faster and easier writing. Create a default template for the index pages, and create an about Markdown page that uses the default template.
+
+# Includes
+We can include html using the `include` command wrapped in `{% * %}` brackets. Any file that needs to be included is stored in the `_includes` folder.
