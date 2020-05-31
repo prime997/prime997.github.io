@@ -86,3 +86,79 @@ We can include html using the `include` command wrapped in `{% * %}` brackets. A
 Jekyll supports loading data from YAML, JSON, and CSV files located in a `_data` directory. Data files are a great way to separate content from source code to make the site easier to maintain.
 
 We can use the Liquid logic blocks to iterate through the list. (See navigation.hmtl).
+
+# Assets
+There's a lot to unpack here.
+
+## Sass
+The first step is to create a sass file in the folder `assets/css/styles.scss`. This file imports the file main.scss from the folder `_scss/main.scss`. The `styles.scss` stylesheet has to be referenced in the layout. Note, the reference uses a `.css` extension.
+
+CSS is the styling language that your browser understands and uses to style webpages. [SCSS](https://sass-lang.com/guide) is a special type of file for SASS, a program written in Ruby that assembles CSS style sheets for a browser. SASS adds lots of additional functionality to CSS like variables, nesting and more which can make writing CSS easier and faster. SCSS files are processed by the server running a web app to output a traditional CSS that your browser can understand.
+
+Some examples are: Nesting, Extend/Inheritence
+
+## Nesting
+The following snippet shows how nesting can be applied
+
+```
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+```
+
+Syntactically, nesting is much more logical than multiple declarations.
+
+## Variable Definition
+```
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+```
+
+## Inheritence
+```
+/* This CSS will print because %message-shared is extended. */
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+// This CSS won't print because %equal-heights is never extended.
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+```
+
+# Blogging
