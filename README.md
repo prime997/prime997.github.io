@@ -80,4 +80,4 @@ Layouts are located in the `_layouts` folder. They wrap the content of a page in
 Jeykyll supports Markdown for faster and easier writing. Create a default template for the index pages, and create an about Markdown page that uses the default template.
 
 # Includes
-We can include html using the `include` command wrapped in `{% * %}` brackets. Any file that needs to be included is stored in the `_includes` folder.
+We can include html using the `include` command wrapped in `{% * %}` brackets. Any file that needs to be included is stored in the `_includes` folder. Note, Liquid will read the brackets even if they're commented out in the HTML.
