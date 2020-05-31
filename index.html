@@ -1,10 +1,19 @@
+---
+title: Home
+my_number: 5
+---
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+    <p>There are {{ page.my_number }} days in the week</p>
   </body>
 </html>
+
+<!-- In this example, the YAML Front Matter sets the variable title to "Home" and my_number to 5. The variables can be called using the page.title or page.my_number command -->
+
+<!-- In the header of the body, we have also used the Liquid downcase filter -->
