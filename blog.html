@@ -4,13 +4,9 @@ title: Blog
 ---
 <h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+{% endfor %}
 
 <!-- A few things to note with this code: The output path post.url is automatically set by Jeykll; post.title is pulled from the name of the file, but can be overridden by setting the title in the Front Matter of the post. The reference post.excerpt pulls the first paragraph of the content -->
