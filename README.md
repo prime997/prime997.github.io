@@ -162,3 +162,7 @@ body {
 ```
 
 # Blogging
+There isn't much to add here. Blog posts are saved in the `_blog` folder. Written in markdown, they have special referencial properties: `site.posts`, `post.url`, `post.title`, and `post.excerpt`.
+
+# Defaults & Collections
+we'll come back to Collections and [Defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) later on.

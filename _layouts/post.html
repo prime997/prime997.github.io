@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }}
+
+<!-- Because the layout is set to default, the title and page date wrap aroudn the content, and the body is wrapped by the default layout. This is called layout inheritence.  -->
