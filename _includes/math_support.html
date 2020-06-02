@@ -1,0 +1,24 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+  }
+});
+MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+	  alert("Math Processing Error: "+message[1]);
+	});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<!-- A simple navigation menu that links to the home page and the about page. The Home link doesn't reference the index.html page. Just the root folder. -->
+
+<!-- Using Liquid's logic (curly brackets), we check if the page's url is "/*" and change the link color accordingly.  -->
+
+<!-- The reference to the about pages uses about.html, recognizing that the actual format is .md  -->
