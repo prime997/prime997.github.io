@@ -1,5 +1,6 @@
 ---
 layout: post
+category: stories
 tags: chocolate never pool
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible

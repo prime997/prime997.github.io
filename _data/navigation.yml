@@ -2,9 +2,17 @@
   link: /
 - name: Notes
   link: /notes.html
-- name: About
-  link: /about.html
+- name: Documents
+  link: /documents.html
+- name: Monographs
+  link: /monographs.html
+- name: Resources
+  link: /resources.html  
 - name: Tags
   link: /tags.html
+- name: Categories
+  link: /categories.html  
 - name: Github
   link: https://github.com/prime997
+- name: About
+  link: /about.html

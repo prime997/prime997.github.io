@@ -1,0 +1,13 @@
+---
+layout: default
+title: Resources
+---
+<h1>Websites</h1>
+<h2>Math</h2>
+<ul>
+  {% for item in site.data.favourites %}
+	<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
+
+<!-- Describe the logic here -->
