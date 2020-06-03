@@ -1,8 +1,10 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
+- name: Notes
+  link: /notes.html
 - name: About
   link: /about.html
 - name: Tags
-  link: /tags.html  
+  link: /tags.html
+- name: Github
+  link: https://github.com/prime997
