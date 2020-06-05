@@ -6,6 +6,7 @@
     {% if page.use_math %}
 			{% include math_support.html %}
 		{% endif %}
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
   </head>
   <body>
     {% include navigation.html %}
@@ -17,4 +18,4 @@
 
 <!-- The % { brackets inform Liquid to execute logic, in this case to load or include the file navigation from the _includes folder  -->
 
-<!--The stylesheet reference in the header, references styles.css, not styles.scss  -->
+<!--The stylesheet reference in the header needs to call to the root folder defined as "/folder_in_root/"  -->

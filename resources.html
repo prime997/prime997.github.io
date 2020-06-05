@@ -2,12 +2,22 @@
 layout: default
 title: Resources
 ---
-<h1>Websites</h1>
-<h2>Math</h2>
-<ul>
-  {% for item in site.data.favourites %}
-	<li><a href="{{ item.link }}">{{ item.name }}</a></li>
-  {% endfor %}
-</ul>
+
+<div class="row">	
+	{% for entry in site.data.websites %}
+	<div class="column">
+	<h2>{{ entry.categories }}</h2>
+
+	  {% for sub_category in entry.sub_categories %}
+		<h3>{{ sub_category.title }}</h3>
+		  {% for sub_sub_category in sub_category.sub_sub_categories %}
+		  	{% if forloop.first %}<ul>{% endif %}
+		    	<li><a href="{{ sub_sub_category.url }}">{{ sub_sub_category.title }}</a></li>
+		  	{% if forloop.last %}</ul>{% endif %}
+		  {% endfor %}
+	  {% endfor %}
+	</div>
+	{% endfor %}
+</div>
 
 <!-- Describe the logic here -->

@@ -1,0 +1,26 @@
+- categories: 'Websites'
+  sub_categories:
+    - title: 'Math'
+      sub_sub_categories:
+        - title : 'Linear Algebra'
+          url   : 'www.algebra.com'
+        - title : 'Calculus'
+          url   : 'www.caculus.com'
+        - title : 'Complex Analysis'
+          url   : 'www.complex.com'
+    - title: 'Physics'
+      sub_sub_categories:
+        - title : 'Thermodynamics'
+          url   : 'www.algebra.com'
+        - title : 'Statistical Mechanics'
+          url   : 'www.caculus.com'
+- categories: 'Courses'
+  sub_categories:
+    - title: 'Math'
+      sub_sub_categories:
+        - title : 'Linear Algebra'
+          url   : 'www.algebra.com'
+        - title : 'Calculus'
+          url   : 'www.caculus.com'
+        - title : 'Complex Analysis'
+          url   : 'www.complex.com'
