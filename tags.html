@@ -12,12 +12,12 @@ title: Tags
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <a name="{{ tag }}">{{ tag }}</a>
-  <ul>
+  <h3><a name="{{ tag }}">{{ tag }}</a></h3>
+  <p>
   {% for post in site.tags[tag] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <a href="{{ post.url }}">{{ post.title }}</a> 
   {% endfor %}
-  </ul>
+  </p>
 {% endfor %}
 
 <!-- Describe the logic here -->

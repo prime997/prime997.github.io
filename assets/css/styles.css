@@ -1,13 +1,22 @@
+@import "default.css";
+
+.highlight {
+  padding-left: 15px;
+}
+
 .current {
   color: green;
 }
 
 ul {
   list-style-type: square;
+  font-size: 95%;
+  padding-left: 15px;
 }
 
 ul li {
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 .column {
@@ -20,4 +29,21 @@ ul li {
   content: "";
   display: table;
   clear: both;
+}
+
+.sidenav {
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+  left: 10px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 8px 0;
+}
+
+.doc {
+  margin-left: 200px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
 }

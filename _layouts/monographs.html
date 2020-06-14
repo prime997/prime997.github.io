@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="sidenav">
+	{% for item in site.mono1 %}
+		<ul>
+		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+		{% if page.url == item.url %}
+			{% toc %}
+		{% endif %}	
+		</ul>	
+	{% endfor %}
+</div>
+
+<div class="doc">
+	{{ content }}
+</div>
+
+<!-- Loop through document (chapters) until page name is chapter name then print toc  -->

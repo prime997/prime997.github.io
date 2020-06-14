@@ -1,16 +1,11 @@
 ---
 layout: default
-title: Categories
+title: Monographes
 ---
-<h1>Categories</h1>
+<h1>Monographes</h1>
 
-<ul>
-  {% for category in site.categories %}
-    <li>
-      <h2><a href="{{ category.url }}">{{ category.name }}</a></h2>
-      <p>{{ category.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for item in site.mono1 %}
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+{% endfor %}
 
 <!-- Describe the logic here -->

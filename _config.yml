@@ -1,5 +1,14 @@
+plugins:
+  - jekyll-toc
+
+collections_dir: my_collections
+
 collections:
   categories:
+    output: true
+  documents:
+    output: true
+  mono1:
     output: true
 
 defaults:
@@ -8,11 +17,6 @@ defaults:
       type: "categories"
     values:
       layout: "categories"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:

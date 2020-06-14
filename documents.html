@@ -1,16 +1,12 @@
 ---
 layout: default
-title: Categories
+title: Documents
 ---
-<h1>Categories</h1>
+<h1>Documents</h1>
 
-<ul>
-  {% for category in site.categories %}
-    <li>
-      <h2><a href="{{ category.url }}">{{ category.name }}</a></h2>
-      <p>{{ category.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for document in site.documents %}
+  <h2><a href="{{ document.url }}">{{ document.title }}</a></h2>
+  {{ document.description }}
+{% endfor %}
 
 <!-- Describe the logic here -->
