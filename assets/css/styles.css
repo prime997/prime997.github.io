@@ -47,3 +47,21 @@ ul li {
   margin-left: 200px; /* Same width as the sidebar + left position in px */
   padding: 0px 10px;
 }
+
+/* Styles for Resume Section */
+
+.cv-head {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.cv-l {
+  width:50%; 
+  float:left;
+}
+
+.cv-r {
+  width:50%;
+  float:right;
+  text-align:right;
+}

@@ -1,9 +1,12 @@
 ---
-layout: default
 title: About
 ---
-This will describe the reasoning behind the page. Why there is this structure. What are the categories. Why there is this and that etc..
 
-What tools were used. 
+# Profile
 
-Add a link to a CV [here](/cv.html)
+<img src="/assets/images/profile.jpg" alt="This is me" width="150"/>
+
+## Personal Statement
+Write a little bit about yourself here. Your hobbies and interests for example. Social media accounts, project websites, whatever...
+
+Add a link to your [Resume](/resume.html).
