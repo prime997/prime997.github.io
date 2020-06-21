@@ -7,7 +7,7 @@ layout: default
 		<ul>
 		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
 		{% if page.url == item.url %}
-			{% toc %}
+			{% include toc.html html=content %}
 		{% endif %}	
 		</ul>	
 	{% endfor %}
