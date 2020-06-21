@@ -1,5 +1,5 @@
 ---
 short_name: stories
-name: Mnemonics
+name: Stories
 ---
-Ted has been eating fruit since he was baby.
+Anecdotes, stories, mnemonics, analogies, basically anything that help to reinforce ideas, concepts, and facts.

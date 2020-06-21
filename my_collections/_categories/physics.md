@@ -2,4 +2,4 @@
 short_name: phys
 name: Physics
 ---
-Ted has been eating fruit since he was baby.
+The physical world and all of its wonders.

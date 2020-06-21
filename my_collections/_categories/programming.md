@@ -2,4 +2,4 @@
 short_name: code
 name: Programming
 ---
-Ted has been eating fruit since he was baby.
+Anything related to code: algorithms, computer science, gaming, syntax, ...
