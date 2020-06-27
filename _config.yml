@@ -1,6 +1,3 @@
-plugins:
-  - jekyll-toc
-
 collections_dir: my_collections
 
 collections:
@@ -10,6 +7,8 @@ collections:
     output: true
   mono1:
     output: true
+  mono2:
+    output: true    
 
 defaults:
   - scope:

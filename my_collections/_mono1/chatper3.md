@@ -1,7 +1,7 @@
 ---
 layout: monographs
-title: chapter3
-description: A short description about the document
+title: Chapter 3
+description: Conclusions and reflections
 toc: true
 ---
 

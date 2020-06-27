@@ -4,8 +4,16 @@ title: Monographes
 ---
 <h1>Monographes</h1>
 
+<h2>Monograph 1</h2>
 {% for item in site.mono1 %}
   <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  <p>{{ item.description }}</p>
 {% endfor %}
 
-<!-- Describe the logic here -->
+<h2>Monograph 2</h2>
+{% for item in site.mono2 %}
+  <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  <p>{{ item.description }}</p>
+{% endfor %}
+
+<!-- Since there won't be hundreds of monographs, list them one-at-a-time -->

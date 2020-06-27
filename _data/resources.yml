@@ -14,16 +14,6 @@
           url   : 'www.algebra.com'
         - title : 'Statistical Mechanics'
           url   : 'www.caculus.com'
-- categories: 'Courses'
-  sub_categories:
-    - title: 'Math'
-      sub_sub_categories:
-        - title : 'Linear Algebra'
-          url   : 'www.algebra.com'
-        - title : 'Calculus'
-          url   : 'www.caculus.com'
-        - title : 'Complex Analysis'
-          url   : 'www.complex.com'
 - categories: 'Books'
   sub_categories:
     - title: 'Math'
@@ -34,3 +24,19 @@
           url   : 'www.caculus.com'
         - title : 'Complex Analysis'
           url   : 'www.complex.com'          
+- categories: 'Courses'
+  sub_categories:
+    - title: 'Math'
+      sub_sub_categories:
+        - title : 'Linear Algebra'
+          url   : 'www.algebra.com'
+        - title : 'Calculus'
+          url   : 'www.caculus.com'
+        - title : 'Complex Analysis'
+          url   : 'www.complex.com'
+- categories: 'Lectures'
+  sub_categories:
+    - title: 'How to'
+      sub_sub_categories:
+        - title : 'R Presentations'
+          url   : '/assets/lectures/R-Presentations.html'

@@ -1,7 +1,7 @@
 ---
 layout: monographs
-title: chapter2
-description: A short description about the document
+title: Chapter 2
+description: Main text, story, ...
 toc: true
 ---
 
