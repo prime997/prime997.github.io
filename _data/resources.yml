@@ -13,12 +13,10 @@
         - title : 'Liquid Templating Language'
           url   : 'https://shopify.github.io/liquid/'
         - title : 'Foundation CSS'
-          url   : 'https://get.foundation/'
-        - title : 'W3Schools'
-          url   : 'https://www.w3schools.com/'          
+          url   : 'https://get.foundation/'         
 - categories: 'Books'
   sub_categories:
-    - title: 'Jekyll'
+    - title: 
       sub_sub_categories:
         - title : 'Creating Blogs with Jekyll'
           url   : 'http://www.worldcat.org/oclc/1078368624'
@@ -26,17 +24,13 @@
           url   : 'http://www.worldcat.org/oclc/975271979'        
 - categories: 'Courses'
   sub_categories:
-    - title: 'Math'
+    - title: 
       sub_sub_categories:
-        - title : 'Linear Algebra'
-          url   : 'www.algebra.com'
-        - title : 'Calculus'
-          url   : 'www.caculus.com'
-        - title : 'Complex Analysis'
-          url   : 'www.complex.com'
+        - title : 'W3Schools'
+          url   : 'https://www.w3schools.com/' 
 - categories: 'Lectures'
   sub_categories:
-    - title: 'How to'
+    - title:
       sub_sub_categories:
         - title : 'R Presentations'
           url   : '/assets/lectures/R-Presentations.html'

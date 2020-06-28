@@ -97,16 +97,21 @@
         {% endif %}
 
         {% capture my_toc %}{{ my_toc }}
-{{ space }}{{ listModifier }} {{ listItemClass }} {{ list_item }}{% if include.anchor_class %}{:.{{ include.anchor_class }}}{% endif %}{% endcapture %}
+		{{ space }}{{ listModifier }} {{ listItemClass }} {{ list_item }}{% if include.anchor_class %}{:.{{ include.anchor_class }}}{% endif %}{% endcapture %}
+		
     {% endfor %}
 
     {% if include.class and include.class != blank %}
         {% capture my_toc %}{:.{{ include.class }}}
-{{ my_toc | lstrip }}{% endcapture %}
+		{{ my_toc | lstrip }}{% endcapture %}
     {% endif %}
 
     {% if include.id %}
         {% capture my_toc %}{: #{{ include.id }}}
-{{ my_toc | lstrip }}{% endcapture %}
+		{{ my_toc | lstrip }}{% endcapture %}
     {% endif %}
-{% endcapture %}{% assign tocWorkspace = '' %}{{ my_toc | markdownify | strip }}
+{% endcapture %}
+
+{% assign tocWorkspace = '' %}
+
+{{ my_toc | markdownify | strip }}

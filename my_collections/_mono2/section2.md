@@ -1,7 +1,7 @@
 ---
 layout: monographs
-title: chapter3
-description: A short description about the document
+title: Section 2
+description: A longer document with Sections
 toc: true
 ---
 
