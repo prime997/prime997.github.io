@@ -17,6 +17,8 @@ layout: default
 
 <p><a href="{{ page.previous.url }}">Previous</a> / <a href="{{ page.next.url }}">Next</a></p>
 
-<!-- Because the layout is set to default, the title and page date wrap around the content, and the body is wrapped by the default layout. This is called layout inheritence.  -->
+{% include disqus.html %}
+
+<!-- Because the layout is set to default, the title and page date wrap around the content, and the body is wrapped by the default layout. This is called layout inheritance.  -->
 
 <!-- Added a list of tags that anchor to a tag collection page.  -->
