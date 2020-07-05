@@ -8,15 +8,27 @@
   color: green;
 }
 
+.compact p, a, h1, h2, h3 {
+  padding: 0;
+  line-height: 1em;
+}
+
+p {
+  line-height: 1.25em;
+  padding-bottom: 0.25em;
+}
+
 ul {
   list-style-type: square;
-  font-size: 95%;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 ul li {
+  padding-bottom: 10px;
+}
+
+ul li li {
   padding-top: 10px;
-  padding-left: 5px;
 }
 
 .column {

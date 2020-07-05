@@ -3,11 +3,29 @@ layout: default
 title: Notes
 use_math: true
 ---
-<h1>Notes</h1>
 
-{% for post in site.posts %}
+{% assign latest_posts = 3 %}
+
+<div class = "compact">
+<h1>Notes</h1>
+<h2>Latest</h2>
+{% for post in site.posts limit:latest_posts %} <!-- The latest 'n' posts -->
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  {{ post.content | strip_html | truncatewords: 20 }}
+  <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
 {% endfor %}
 
-<!-- A few things to note with this code: The output path post.url is automatically set by Jeykll; post.title is pulled from the name of the file, but can be overridden by setting the title in the Front Matter of the post. The reference post.excerpt pulls the first paragraph of the content -->
+&nbsp;
+
+<h2>Older</h2>
+{% for post in site.posts offset:latest_posts %} <!-- The remaining posts -->
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+{% endfor %}
+</div>
+
+<!-- 
+A few things to note with this code: The output path post.url is automatically set by Jekyll; 
+post.title is pulled from the name of the file, 
+but can be overridden by setting the title in the Front Matter of the post. 
+The reference post.excerpt pulls the first paragraph of the content 
+-->

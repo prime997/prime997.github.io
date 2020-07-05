@@ -5,7 +5,7 @@ title: Documents
 <h1>Documents</h1>
 
 {% for document in site.documents %}
-  <h2><a href="{{ document.url }}">{{ document.title }}</a></h2>
+  <h3><a href="{{ document.url }}">{{ document.title }}</a></h3>
   {{ document.description }}
 {% endfor %}
 

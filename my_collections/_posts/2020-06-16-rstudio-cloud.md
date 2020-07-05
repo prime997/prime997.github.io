@@ -1,13 +1,18 @@
 ---
 layout: post
+title: RStudio Cloud
 category: probability code
 tags: stats-101 r-cloud
 use_math: true
 ---
 
-# Stats
+R is a fun and useful programming language for statistical computing. 
+It is free to use and [download](https://www.r-project.org/) for Mac OS X, 
+Windows, and Linux.
 
-# RStudio Cloud
+RStudio is an IDE that makes programming in R a lot easier.
+
+
 
 [RStudio Cloud](https://rstudio.cloud/)
 
@@ -74,3 +79,5 @@ hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
 diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
 texture, with a sweet and unique flavor.
+
+*[IDE]:  Integrated Development Environment

@@ -1,8 +1,7 @@
 ---
 layout: documents
-title: Doc 3
-description: A short description about the document
-toc: true
+title: Reference Guide
+description: An information-oriented reference guide to APIs
 ---
 
 # Heading 1

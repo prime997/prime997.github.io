@@ -1,21 +1,34 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
 
-<p>
-	{% assign category = site.categories | where: 'short_name', page.category | first %}
-  {% if category %}
-  <h3><a href="{{ category.url }}">{{ category.name }}</a></h3>
-  {% endif %}
+{% assign category = site.categories | where: 'short_name', page.category | first %}
+
+{% if category %}
+	<h3>Category : <a href="{{ category.url }}">{{ category.name }}</a></h3>
+{% endif %}
+
+<p> 
+	
+	Date : {{ page.date | date_to_string }} |
+
+	Tags : {% for tag in page.tags %} <a href="/tags#{{ tag }}">{{ tag | capitalize }}</a> {% endfor %}
+
 </p>
-<p>
-	{{ page.date | date_to_string }} - {% for tag in page.tags %} <a href="/tags#{{ tag }}">{{tag}}</a> {% endfor %}
+<hr/>
+
+<h2>{{ page.title }}</h2>
+<p> 
+
+	{{ content }}
+
 </p>
 
-{{ content }}
-
-<p><a href="{{ page.previous.url }}">Previous</a> / <a href="{{ page.next.url }}">Next</a></p>
+<footer>
+	<a href="{{ page.previous.url }}">Previous</a> {{ page.previous.title }} 
+	/ 
+	<a href="{{ page.next.url }}">Next</a> {{ page.next.title }}
+</footer>
 
 {% include disqus.html %}
 

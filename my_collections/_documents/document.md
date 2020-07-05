@@ -1,9 +1,13 @@
 ---
 layout: documents
-title: How to Build This Site
-description: A short description about the document
+title: A Document
+description: An overview document providing additional detailed context.
 toc: true
 ---
+
+# Quick Start
+## Create a Github Account
+
 
 # Introduction
 ## Motivation

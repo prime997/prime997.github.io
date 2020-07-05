@@ -2,13 +2,14 @@
 title: Home
 ---
 # Welcome
-This is a "No Frills" website template for scientific notes. 
+A "No Frills" website template for scientific note taking. 
 
-The document for the website is [here](documents/doc1.html)
+The website tutorial is [here](documents/tutorial.html)
 
 ## Features
-Describe the features of the website here
 
-- Feature 1
-- Feature 2
+- As little code as possible
+    + Minimal use of css and html
+- Notes, Documents, and Mongrpahs
+- Tag and categorize notes
 - Feature 3

@@ -2,8 +2,8 @@
 title: Resume
 ---
 
-# Mark Kram
-mark-kram@protonmail.com | (555) 555-5555 | City, Country
+# FirstName LastName
+firstname.lastname@protonmail.com | (555) 555-5555 | City, Country
 
 ---
 
@@ -21,8 +21,6 @@ mark-kram@protonmail.com | (555) 555-5555 | City, Country
 - Core responsibility #3. Pretend this is where they stop reading your resume. Whether Work or Education is your top section, the first 3 things they see better be your most impressive stuff, period.
 - Core responsibility #4. Bullets #1 and #2 are for high-level descriptions of the company and/or your role.
 
-&nbsp;
- 
 <div class="cv-head">
   <div class="cv-l">Company Name</div>
   <div class="cv-r">Month Year – Month Year</div>
@@ -34,8 +32,6 @@ mark-kram@protonmail.com | (555) 555-5555 | City, Country
 - Core responsibility #2.
 - Core responsibility #3.
 
-&nbsp;
-
 <div class="cv-head">
   <div class="cv-l">Company Name</div>
   <div class="cv-r">Month Year – Month Year</div>
@@ -46,8 +42,6 @@ mark-kram@protonmail.com | (555) 555-5555 | City, Country
 - Core responsibility #1.
 - Core responsibility #2.
 
-&nbsp;
-
 <div class="cv-head">
   <div class="cv-l">Company Name</div>
   <div class="cv-r">Month Year – Month Year</div>
@@ -56,8 +50,6 @@ mark-kram@protonmail.com | (555) 555-5555 | City, Country
 *Job Title*
 
 - Core responsibility #1.
-
-&nbsp;
 
 ---
 
@@ -74,16 +66,12 @@ mark-kram@protonmail.com | (555) 555-5555 | City, Country
 - Studied abroad in City, Country during spring/fall 20YY semester (University Name)
 - Any other fun stuff like sports, or something that gives you a little color
 
-&nbsp;
-
 ---
 
 ### SKILLS & INTERESTS
 
 - Skills: Strategic planning; strategic partnerships; revenue modeling & forecasting; retail partnerships, sales, & distro; contract negotiations; account management; Amazon marketing; channel marketing; crowdfunding; copywriting; content marketing; brand marketing; DTC; Shopify; supply chain management; Keynote / PPT presentation
 - Interests: Puns; sleeping; sustainability; politics; yoga; traveling; fishing; Reddit; beer; Seinfeld
-
-&nbsp;
 
 ---
 
