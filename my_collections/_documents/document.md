@@ -7,7 +7,9 @@ toc: true
 
 # Quick Start
 ## Create a Github Account
+To benefit from [GitHub Pages'](https://pages.github.com/) free website hosting service you first need to [create an account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github).
 
+Once you've created an account, 
 
 # Introduction
 ## Motivation
